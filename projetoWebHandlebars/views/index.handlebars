@@ -1,0 +1,59 @@
+<div class="container">  
+  <div class="row mb-3">
+    <!--Navegação -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">SISTEMA WEB</a>        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Cadastrar</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link disabled text-white-50" aria-disabled="true">Consultar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Formulário -->
+  <div class="container">
+    <h3><small class="text-black">Cadastrar - Agendamento de Potenciais Clientes</small></h3>
+    <p class="text-black">Sistema utilizado para agendamento de serviços</p>
+    <form class="row g-3">      
+      <!-- Nome -->      
+      <div class="col-md-12">
+        <label for="nome" class="form-label text-black">Nome</label>
+        <input type="text" class="form-control text-black" id="nome" required>  
+      </div>        
+      <!-- Telefone -->
+      <div class="col-md-12">
+        <label for="telefone" class="form-label text-black">Telefone</label>
+        <input type="text" class="form-control text-black" id="telefone" required>        
+      </div>                            
+      <!-- Origem -->   
+      <div class="col-md-12">
+        <label for="origem" class="form-label text-black">Origem</label>
+        <select class="form-select text-black" id="origem" required>
+          <option selected disabled value="">Celular...</option>
+          <option>...</option>
+        </select>        
+      </div>      
+      <!-- Data do contato -->
+      <div class="col-md-12">
+        <label for="data do contato" class="form-label text-black">Data do contato</label>
+        <input type="text" class="form-control text-black" id="data do contato" required>        
+      </div>      
+      <!-- Observação --> 
+      <label for="observação">Observação</label>     
+      <div class="form-floating">        
+        <textarea class="form-control" placeholder="Leave a comment here" id="observação" style="height: 100px"></textarea>        
+      </div>             
+      <!-- botão cadastrar -->  
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Cadastrar</button>
+      </div>
+    </form>
+  </div>
+</div>
