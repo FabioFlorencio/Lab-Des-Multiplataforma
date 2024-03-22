@@ -9,10 +9,8 @@
 
 Em seguida construa o arquivo app.js e crie as respectivas rotas para acessar as páginas construídas.
 
-- [ ] 🗺️ `/ - index.handlebars`
-- [ ] 🗺️ `/consultar - consultar.handlebars`
-- [ ] 🗺️ `/atualizar - atualizar.handlebars`  
-- [ ] 🐱‍💻 Criar um repositório no GitHub com o nome "projetowebhandlebars"
-- [ ] 📤 Realize o upload do projeto e entregue o link do mesmo na atividade.
-
-## 💣 **Falta colocar placeholder e icon do campo data do contato**
+- [x] 🗺️ `/ - index.handlebars`
+- [x] 🗺️ `/consultar - consultar.handlebars`
+- [x] 🗺️ `/atualizar - atualizar.handlebars`  
+- [x] 🐱‍💻 Criar um repositório no GitHub com o nome "projetowebhandlebars"
+- [x] 📤 Realize o upload do projeto e entregue o link do mesmo na atividade.
